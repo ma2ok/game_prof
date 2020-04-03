@@ -68,4 +68,18 @@ header {
   font-weight: normal;
   font-size: 24px;
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works > section > h1 {
+  font-weight: normal;
+}
+
+.works p {
+  line-height: 1.8;
 }
