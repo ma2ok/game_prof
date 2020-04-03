@@ -19,7 +19,9 @@ header {
 .icon {
   background-color: skyblue;
 }
+
 .icon img {
+  /* border-radius: 20px; */
   border-radius: 50%;
   border-width: 4px;
   border-style: solid;
@@ -35,4 +37,20 @@ header {
   font-weight: normal;
   font-size: 24px;
   margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
 }
